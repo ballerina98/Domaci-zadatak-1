@@ -1,0 +1,184 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "montserrat",sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../images/mainBackground.png);
+    background-size: cover;
+    padding: 40px 60px;
+}
+
+header .container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 0 0 30px 50 px;
+    color:aliceblue;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+header nav li:first-child {
+    margin: 0;
+}
+
+header .main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .main .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.title {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+header .main .under-title {
+    text-align: justify;
+    font-family: cursive;
+    padding-bottom: 25px;
+    color: aliceblue;
+}
+
+header .main .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+header .main .right-side .upper-main-image {
+    height: 500px;
+    text-align: right;
+    padding-bottom: 0%;
+}
+
+header .main .right-side .upper-main-image img {
+    height: 100%;
+    width: auto;
+    float: right;
+}
+
+header .main .right-side .lower-main-image img {
+    height: 50%;
+    width: auto;
+    text-align: left;
+}
+
+.pasta-types{
+    width: 100%;
+    height: 100vh;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.pasta-types .title {
+    color: black;
+}
+
+.pasta-types .offer-grid {
+    max-width: 1900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+}
+
+.basic-info {
+    padding-top: 50px;
+    height: 400px;
+    width: auto;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+}
+
+.basic-info .basic-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: aliceblue;
+    text-align: justify;
+    padding-bottom: 40px;
+    
+}
+
+.discounts-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.discounts-grid img {
+    max-width: 800px;
+}
+
+.upper-discounts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: center;
+}
+
+.lower-discounts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
